@@ -5,8 +5,8 @@ contract TodoList {
 	constructor() public {
 		createTask("This is the first tast I'm making");
 	}
-	
-  uint taskCount = 0;
+
+  uint public taskCount = 0;
 
   struct Task {
 	  uint id;
